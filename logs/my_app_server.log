@@ -1,0 +1,7 @@
+2024-04-15 22:25:05,654 DEBUG Using proactor: IocpProactor
+2024-04-15 22:25:05,663 INFO server listening on [::1]:8765
+2024-04-15 22:25:05,664 INFO server listening on 127.0.0.1:8765
+2024-04-15 22:25:11,650 INFO server closing
+2024-04-15 22:25:11,651 INFO server closed
+2024-04-15 22:25:11,652 INFO 
+Shutdown

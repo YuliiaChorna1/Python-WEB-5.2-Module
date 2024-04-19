@@ -1,0 +1,289 @@
+Using proactor: IocpProactor
+server listening on [::1]:8765
+server listening on 127.0.0.1:8765
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: 4SzJ9c/kaLLE58PwzD6T5Q==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.11 websockets/12.0
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: tjmQwbDGeTfCHwkGctANu8Oy+g8=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Mon, 15 Apr 2024 12:43:08 GMT
+> Server: Python/3.11 websockets/12.0
+connection open
+= connection is OPEN
+('::1', 52927, 0, 0) connects
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: j6lD+YW45jXaaOoWnw2D6A==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.11 websockets/12.0
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: jzoF9ZBqAtEV3vn1ABM0azX4Isk=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Mon, 15 Apr 2024 12:43:15 GMT
+> Server: Python/3.11 websockets/12.0
+connection open
+= connection is OPEN
+('::1', 52930, 0, 0) connects
+% sending keepalive ping
+> PING 0d cf 2b a8 [binary, 4 bytes]
+< PONG 0d cf 2b a8 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING e6 00 11 71 [binary, 4 bytes]
+< PING 54 26 6c ea [binary, 4 bytes]
+> PONG 54 26 6c ea [binary, 4 bytes]
+< PONG e6 00 11 71 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING c1 85 5f 78 [binary, 4 bytes]
+< PONG c1 85 5f 78 [binary, 4 bytes]
+% received keepalive pong
+< PING 7c 4e 33 b7 [binary, 4 bytes]
+> PONG 7c 4e 33 b7 [binary, 4 bytes]
+< PING f3 ef 66 40 [binary, 4 bytes]
+> PONG f3 ef 66 40 [binary, 4 bytes]
+% sending keepalive ping
+> PING 2d 2f 6c 82 [binary, 4 bytes]
+< PONG 2d 2f 6c 82 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING b5 d2 09 43 [binary, 4 bytes]
+< PONG b5 d2 09 43 [binary, 4 bytes]
+% received keepalive pong
+< PING 66 1e df 08 [binary, 4 bytes]
+> PONG 66 1e df 08 [binary, 4 bytes]
+% sending keepalive ping
+> PING f8 7a ec ea [binary, 4 bytes]
+< PING f6 ff ae 61 [binary, 4 bytes]
+> PONG f6 ff ae 61 [binary, 4 bytes]
+< PONG f8 7a ec ea [binary, 4 bytes]
+% received keepalive pong
+< TEXT 'hello' [5 bytes]
+> TEXT "('::1', 52927, 0, 0): hello" [27 bytes]
+% sending keepalive ping
+> PING 59 45 a7 2a [binary, 4 bytes]
+< PONG 59 45 a7 2a [binary, 4 bytes]
+% received keepalive pong
+< PING cc 6a 5f ce [binary, 4 bytes]
+> PONG cc 6a 5f ce [binary, 4 bytes]
+< TEXT 'wor' [3 bytes]
+> TEXT "('::1', 52927, 0, 0): wor" [25 bytes]
+% sending keepalive ping
+> PING 84 66 d5 09 [binary, 4 bytes]
+< PING 00 54 d9 5b [binary, 4 bytes]
+> PONG 00 54 d9 5b [binary, 4 bytes]
+< PONG 84 66 d5 09 [binary, 4 bytes]
+% received keepalive pong
+< TEXT 'ld' [2 bytes]
+> TEXT "('::1', 52927, 0, 0): ld" [24 bytes]
+% sending keepalive ping
+> PING 11 65 88 ba [binary, 4 bytes]
+< PING 1d 4f 17 fe [binary, 4 bytes]
+> PONG 1d 4f 17 fe [binary, 4 bytes]
+< PONG 11 65 88 ba [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING ad c2 1e 57 [binary, 4 bytes]
+< PING da f9 0b 85 [binary, 4 bytes]
+> PONG da f9 0b 85 [binary, 4 bytes]
+< PONG ad c2 1e 57 [binary, 4 bytes]
+% received keepalive pong
+< TEXT 'Hi my friend' [12 bytes]
+> TEXT "('::1', 52927, 0, 0): Hi my friend" [34 bytes]
+% sending keepalive ping
+> PING b6 f2 85 f2 [binary, 4 bytes]
+< PING d9 1f d9 68 [binary, 4 bytes]
+> PONG d9 1f d9 68 [binary, 4 bytes]
+< PONG b6 f2 85 f2 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 86 54 95 65 [binary, 4 bytes]
+< PING f3 32 42 47 [binary, 4 bytes]
+> PONG f3 32 42 47 [binary, 4 bytes]
+< PONG 86 54 95 65 [binary, 4 bytes]
+% received keepalive pong
+< TEXT 'how are you?' [12 bytes]
+> TEXT "('::1', 52930, 0, 0): how are you?" [34 bytes]
+% sending keepalive ping
+> PING 32 ad a7 d1 [binary, 4 bytes]
+< PING 4d d6 c2 f3 [binary, 4 bytes]
+> PONG 4d d6 c2 f3 [binary, 4 bytes]
+< PONG 32 ad a7 d1 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 38 5f d3 ee [binary, 4 bytes]
+< PING 02 79 6f c1 [binary, 4 bytes]
+> PONG 02 79 6f c1 [binary, 4 bytes]
+< PONG 38 5f d3 ee [binary, 4 bytes]
+% received keepalive pong
+< PING 92 3a 10 93 [binary, 4 bytes]
+> PONG 92 3a 10 93 [binary, 4 bytes]
+% sending keepalive ping
+> PING b4 22 d3 aa [binary, 4 bytes]
+< PONG b4 22 d3 aa [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 84 32 a3 df [binary, 4 bytes]
+< PING 12 7c 28 fc [binary, 4 bytes]
+> PONG 12 7c 28 fc [binary, 4 bytes]
+< PONG 84 32 a3 df [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING d2 96 87 12 [binary, 4 bytes]
+< PING e4 40 ff 4b [binary, 4 bytes]
+> PONG e4 40 ff 4b [binary, 4 bytes]
+< PONG d2 96 87 12 [binary, 4 bytes]
+% received keepalive pong
+< PING f8 d0 1c 87 [binary, 4 bytes]
+> PONG f8 d0 1c 87 [binary, 4 bytes]
+% sending keepalive ping
+> PING 5f ab c2 85 [binary, 4 bytes]
+< PONG 5f ab c2 85 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING eb ab fa c9 [binary, 4 bytes]
+< PING ff ce 20 ab [binary, 4 bytes]
+> PONG ff ce 20 ab [binary, 4 bytes]
+< PONG eb ab fa c9 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 2e 47 f3 85 [binary, 4 bytes]
+< PING fe 69 69 c0 [binary, 4 bytes]
+> PONG fe 69 69 c0 [binary, 4 bytes]
+< PONG 2e 47 f3 85 [binary, 4 bytes]
+% received keepalive pong
+< PING 60 9e 77 4b [binary, 4 bytes]
+> PONG 60 9e 77 4b [binary, 4 bytes]
+% sending keepalive ping
+> PING 2c 1e 14 e1 [binary, 4 bytes]
+< PONG 2c 1e 14 e1 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 19 2d ae a3 [binary, 4 bytes]
+< PING 7f 6c 50 df [binary, 4 bytes]
+> PONG 7f 6c 50 df [binary, 4 bytes]
+< PONG 19 2d ae a3 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 8b 78 16 e3 [binary, 4 bytes]
+< PING 91 76 89 a5 [binary, 4 bytes]
+> PONG 91 76 89 a5 [binary, 4 bytes]
+< PONG 8b 78 16 e3 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 'o9&9' [text, 4 bytes]
+< PONG 'o9&9' [text, 4 bytes]
+% received keepalive pong
+< PING 6a ff 8e 6f [binary, 4 bytes]
+> PONG 6a ff 8e 6f [binary, 4 bytes]
+% sending keepalive ping
+> PING ba ae 55 5b [binary, 4 bytes]
+< PING a5 c4 61 68 [binary, 4 bytes]
+> PONG a5 c4 61 68 [binary, 4 bytes]
+< PONG ba ae 55 5b [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 29 12 11 9d [binary, 4 bytes]
+< PING 09 2a 03 83 [binary, 4 bytes]
+> PONG 09 2a 03 83 [binary, 4 bytes]
+< PONG 29 12 11 9d [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING ef 88 93 b7 [binary, 4 bytes]
+< PING cc 52 30 77 [binary, 4 bytes]
+> PONG cc 52 30 77 [binary, 4 bytes]
+< PONG ef 88 93 b7 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 34 9e 40 50 [binary, 4 bytes]
+< PONG 34 9e 40 50 [binary, 4 bytes]
+% received keepalive pong
+< PING bb 3d 1f bb [binary, 4 bytes]
+> PONG bb 3d 1f bb [binary, 4 bytes]
+% sending keepalive ping
+> PING 07 37 80 0e [binary, 4 bytes]
+< PING 17 08 7e 95 [binary, 4 bytes]
+> PONG 17 08 7e 95 [binary, 4 bytes]
+< PONG 07 37 80 0e [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 2b e7 99 18 [binary, 4 bytes]
+< PING 2a e9 05 d8 [binary, 4 bytes]
+> PONG 2a e9 05 d8 [binary, 4 bytes]
+< PONG 2b e7 99 18 [binary, 4 bytes]
+% received keepalive pong
+< PING 84 31 31 23 [binary, 4 bytes]
+> PONG 84 31 31 23 [binary, 4 bytes]
+% sending keepalive ping
+> PING e9 80 0d e0 [binary, 4 bytes]
+< PONG e9 80 0d e0 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING e4 23 1b bc [binary, 4 bytes]
+< PING f0 1e a6 be [binary, 4 bytes]
+> PONG f0 1e a6 be [binary, 4 bytes]
+< PONG e4 23 1b bc [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 09 09 8d 1c [binary, 4 bytes]
+< PING 20 60 b4 af [binary, 4 bytes]
+> PONG 20 60 b4 af [binary, 4 bytes]
+< PONG 09 09 8d 1c [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 21 d9 16 cc [binary, 4 bytes]
+< PONG 21 d9 16 cc [binary, 4 bytes]
+% received keepalive pong
+< PING 48 13 77 9a [binary, 4 bytes]
+> PONG 48 13 77 9a [binary, 4 bytes]
+% sending keepalive ping
+> PING bd a4 f9 42 [binary, 4 bytes]
+< PING a2 48 32 66 [binary, 4 bytes]
+> PONG a2 48 32 66 [binary, 4 bytes]
+< PONG bd a4 f9 42 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING a1 c5 51 cf [binary, 4 bytes]
+< PING c4 d3 c7 b4 [binary, 4 bytes]
+> PONG c4 d3 c7 b4 [binary, 4 bytes]
+< PONG a1 c5 51 cf [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 77 8f ef 45 [binary, 4 bytes]
+< PING 96 18 f8 df [binary, 4 bytes]
+> PONG 96 18 f8 df [binary, 4 bytes]
+< PONG 77 8f ef 45 [binary, 4 bytes]
+% received keepalive pong
+< PING c2 74 b7 78 [binary, 4 bytes]
+> PONG c2 74 b7 78 [binary, 4 bytes]
+% sending keepalive ping
+> PING 1a e8 00 2d [binary, 4 bytes]
+< PONG 1a e8 00 2d [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING ea 04 0b fc [binary, 4 bytes]
+< PING 'fu\x04%' [text, 4 bytes]
+> PONG 'fu\x04%' [text, 4 bytes]
+< PONG ea 04 0b fc [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING b1 7f 25 64 [binary, 4 bytes]
+< PONG b1 7f 25 64 [binary, 4 bytes]
+% received keepalive pong
+< PING 2b 2c df 2d [binary, 4 bytes]
+> PONG 2b 2c df 2d [binary, 4 bytes]

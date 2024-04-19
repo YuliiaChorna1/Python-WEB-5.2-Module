@@ -1,0 +1,100 @@
+< PING 37 88 87 2b [binary, 4 bytes]
+> PONG 37 88 87 2b [binary, 4 bytes]
+% sending keepalive ping
+> PING bb 73 96 bf [binary, 4 bytes]
+< PONG bb 73 96 bf [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+< PING 2c d2 c1 d7 [binary, 4 bytes]
+> PONG 2c d2 c1 d7 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 12 d5 66 8a [binary, 4 bytes]
+< PING 8f 0e 6d 5e [binary, 4 bytes]
+> PONG 8f 0e 6d 5e [binary, 4 bytes]
+< PONG 12 d5 66 8a [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 0b 44 1a d9 [binary, 4 bytes]
+< PING df 48 dd 0a [binary, 4 bytes]
+> PONG df 48 dd 0a [binary, 4 bytes]
+< PONG 0b 44 1a d9 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING a5 3e b2 f8 [binary, 4 bytes]
+< PING 44 c5 02 98 [binary, 4 bytes]
+> PONG 44 c5 02 98 [binary, 4 bytes]
+< PONG a5 3e b2 f8 [binary, 4 bytes]
+% received keepalive pong
+< PING 'Va\x072' [text, 4 bytes]
+> PONG 'Va\x072' [text, 4 bytes]
+% sending keepalive ping
+> PING dd 8a af ac [binary, 4 bytes]
+< PONG dd 8a af ac [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 45 2a 5f d4 [binary, 4 bytes]
+< PING 4c 20 62 a2 [binary, 4 bytes]
+> PONG 4c 20 62 a2 [binary, 4 bytes]
+< PONG 45 2a 5f d4 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING '|RWD' [text, 4 bytes]
+< PING 2f 32 4d b8 [binary, 4 bytes]
+> PONG 2f 32 4d b8 [binary, 4 bytes]
+< PONG '|RWD' [text, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 92 82 6d 7b [binary, 4 bytes]
+< PONG 92 82 6d 7b [binary, 4 bytes]
+% received keepalive pong
+< PING 15 80 40 3b [binary, 4 bytes]
+> PONG 15 80 40 3b [binary, 4 bytes]
+% sending keepalive ping
+> PING 0e 73 bc d7 [binary, 4 bytes]
+< PING '\u05ff%t' [text, 4 bytes]
+> PONG '\u05ff%t' [text, 4 bytes]
+< PONG 0e 73 bc d7 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 06 13 5c 81 [binary, 4 bytes]
+< PING ed b3 1e 9a [binary, 4 bytes]
+> PONG ed b3 1e 9a [binary, 4 bytes]
+< PONG 06 13 5c 81 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING c2 68 53 65 [binary, 4 bytes]
+< PING 5f 80 cc 81 [binary, 4 bytes]
+> PONG 5f 80 cc 81 [binary, 4 bytes]
+< PONG c2 68 53 65 [binary, 4 bytes]
+% received keepalive pong
+% sending keepalive ping
+> PING 90 0b b7 3a [binary, 4 bytes]
+< PING 8a 08 84 51 [binary, 4 bytes]
+> PONG 8a 08 84 51 [binary, 4 bytes]
+< PONG 90 0b b7 3a [binary, 4 bytes]
+% received keepalive pong
+< PING fa 6b 1b c2 [binary, 4 bytes]
+> PONG fa 6b 1b c2 [binary, 4 bytes]
+% sending keepalive ping
+> PING 82 74 30 76 [binary, 4 bytes]
+< PONG 82 74 30 76 [binary, 4 bytes]
+% received keepalive pong
+< CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+x half-closing TCP connection
+= connection is CLOSED
+('::1', 52927, 0, 0) disconnects
+connection closed
+< CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+x half-closing TCP connection
+= connection is CLOSED
+('::1', 52930, 0, 0) disconnects
+connection closed
+server closing
+server closed
+
+Shutdown
